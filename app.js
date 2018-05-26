@@ -8,8 +8,8 @@ window.onload = function(){
   var mouseDown = false;
   
   var winRectangle = document.getElementById("r2");
-  var winX = winRectangle.getBoundingClientRect().x + winRectangle.offsetWidth/2;
-  var winY = winRectangle.getBoundingClientRect().y + winRectangle.offsetHeight/2;
+  var winX = winRectangle.getBoundingClientRect().left + winRectangle.offsetWidth/2;
+  var winY = winRectangle.getBoundingClientRect().top + winRectangle.offsetHeight/2;
   // On mousemove use event.clientX and event.clientY to set the location of the div to the location of the cursor:
   window.addEventListener('mousemove', function(event){
 
