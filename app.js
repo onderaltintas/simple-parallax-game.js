@@ -48,8 +48,8 @@ window.onload = function(){
 }
 
 function gratz(){
-  document.body.innerHTML = "";
   setTimeout(function(){
+    document.body.innerHTML = "";
     document.body.innerHTML = '<iframe style="width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/f4J35f1aaU4?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
-  },500);
+  },1000);
 }
