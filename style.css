@@ -1,0 +1,36 @@
+html,body{
+  margin: 0px;
+  width:100%;
+  height:100%;
+  cursor: none;
+  overflow: hidden;
+}
+
+#surface{
+  width:100%;
+  height:100%;
+  background-color: rgba(245,245,245,1);
+}
+
+.rectangle{
+  position:fixed;
+  background-color: rgba(255,255,255,1);
+  transition: box-shadow 0.2s;
+}
+
+#r1{
+  width:200px;
+  height:200px;
+  z-index:2;
+}
+
+#r2{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  position:fixed;
+  right: 500px;
+  bottom:400px;
+  z-index: 1;
+}
+
